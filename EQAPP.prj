@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="863826322" file="C:\Users\giova\OneDrive - Unimore\uni\Tesi\Matlab tests\EQ APP\EQAPP.prj" location="C:\Users\giova\OneDrive - Unimore\uni\Tesi\Matlab tests\EQ APP" name="EQAPP" target="target.mlapps" target-name="Package App">
+    <param.appname>EQAPP</param.appname>
+    <param.authnamewatermark>Giovanni Benedetti</param.authnamewatermark>
+    <param.email>giovanni.benedetti.02@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>A Parametric Equalizer</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\giova\AppData\Local\Temp\tp4ccb9238_c7fd_4e85_87b6_07eda543d818.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>71a91285-b5bb-4f47-bfb3-b2298c507c38</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\EQAPP.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\giova\OneDrive - Unimore\uni\Tesi\Matlab tests\EQ APP - Backup 11-01\BellClass.m</file>
+      <file>C:\Users\giova\OneDrive - Unimore\uni\Tesi\Matlab tests\EQ APP - Backup 11-01\HighCutClass.m</file>
+      <file>C:\Users\giova\OneDrive - Unimore\uni\Tesi\Matlab tests\EQ APP - Backup 11-01\LowCutClass.m</file>
+      <file>${PROJECT_ROOT}\Icons\Microphone_Icon.png</file>
+      <file>${PROJECT_ROOT}\Icons\Pause_Icon.png</file>
+      <file>${PROJECT_ROOT}\Icons\Play_Icon.png</file>
+      <file>${PROJECT_ROOT}\Icons\Stop_Icon.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\giova\OneDrive - Unimore\uni\Tesi\Matlab tests" name="EQ APP" optional="false">C:\Users\giova\OneDrive - Unimore\uni\Tesi\Matlab tests\EQ APP</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
